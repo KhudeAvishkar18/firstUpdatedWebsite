@@ -1,0 +1,47 @@
+* {
+    text-decoration: none;
+    text-align: center;
+}
+
+
+#body {
+    /* background: rgb(143, 229, 240); */
+    background-image: url("mercedes.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    color: white;
+
+}
+
+#image {
+    height: 560px;
+    width: 1200px;
+
+}
+
+.heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(235, 34, 34);
+    margin: 40px auto;
+    color: yellow;
+}
+
+button{
+    cursor: pointer;
+    background-color: aqua;
+    color: red;
+    height: 30px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+button:hover{
+    text-shadow: 2px 2px rgb(221, 215, 42);
+    font-weight: bold;
+    box-shadow: 3px 3px rgb(45, 45, 44);
+    border: 3px solid rgb(240, 233, 21);
+    border-radius: 10px;
+}
